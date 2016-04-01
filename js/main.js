@@ -31,6 +31,18 @@ $btnBounce.on('click', function () {
   $circle.toggleClass('bounce');
 });
 
+$btnBounce.on('animationend', function () {
+  $circle.removeClass('bounce');
+});
+
+$btnAppend.on('click', function () {
+  $list.toggleClass('add');
+});
+
+$btnAppend.on('click', function () {
+  $list.append('<li>New List Item</li>');
+});
+
 // $('html').on('keydown', function (e) {
 //  var $bubble;
 
