@@ -19,7 +19,17 @@ $btnShowHide.on('click', function () {
   $box.toggleClass('showb');
 });
 
+$btnMove.on('click', function () {
+  $diamond.toggleClass('slide');
+});
 
+$btnColEx.on('click', function () {
+  $panel.toggleClass('collapse');
+});
+
+$btnBounce.on('click', function () {
+  $circle.toggleClass('bounce');
+});
 
 // $('html').on('keydown', function (e) {
 //  var $bubble;
